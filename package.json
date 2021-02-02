@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code renaming local branches",
   "main": "App.js",
+  "bin": {
+    "local-branch": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
