@@ -11,7 +11,9 @@ else console.log(dirs + ' : dosnt have git inited')
 catch(error){
 console.log( dirs+ ' Has ' + error.stderr.toString())
 }
-})}
+})
+return 'Working'
+}
 
 
 function getDir(src) {
